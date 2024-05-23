@@ -1,0 +1,1 @@
+{"cnn_not_optimised-no_opt.tflite": 0.8971650276582668, "cnn_not_optimised-default_opt.tflite": 0.8954363859864782, "cnn_not_optimised-int8_quant.tflite": 0.8700061462814997, "cnn_pruned-no_opt.tflite": 0.8759219422249539, "cnn_pruned-default_opt.tflite": 0.8756146281499693, "cnn_pruned-int8_quant.tflite": 0.85029963122311}

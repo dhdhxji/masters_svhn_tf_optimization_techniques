@@ -1,0 +1,36 @@
+Benchmarking cnn_not_optimised_int8_quant_tflite
+Initialising model...
+Register AddAssignVariable... OK
+Register AddConv2D... OK
+Register AddReadVariable... OK
+Register AddBatchMatMul... OK
+Register AddRelu... OK
+Register AddMaxPool2D... OK
+Register AddReshape... OK
+Register AddFullyConnected... OK
+Register AddSoftmax... OK
+Register AddQuantize... OK
+Register AddDequantize... OK
+Register AddCallOnce... OK
+Register AddVarHandle... OK
+Register AddMul... OK
+Register AddSub... OK
+Register AddTranspose... OK
+Register AddAdd... OK
+Register AddRound... OK
+Register AddMinimum... OK
+Register AddCast... OK
+Register AddNeg... OK
+Register AddMaximum... OK
+Register AddLessEqual... OK
+Register AddSelectV2... OK
+Register AddShape... OK
+Register AddBroadcastTo... OK
+Done
+Feeding input...
+Done
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+
+INFO: ==============Summary of All Runs w/ Different Performance Options==============
+INFO: single core cpu: count=52 first=63518 curr=62865 min=62859 max=63518 avg=62879.1 std=89

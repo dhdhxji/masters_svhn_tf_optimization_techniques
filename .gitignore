@@ -1,0 +1,9 @@
+linux_x86*
+*.png
+*.zip
+*.h5
+*.tflite
+*.h
+
+# Skip scope power logs as they too big for github
+power_data/*.csv
